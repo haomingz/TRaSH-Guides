@@ -62,15 +62,6 @@
       }
     },
     {
-      "name": "FRDS-Title",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(FRDS)$"
-      }
-    },
-    {
       "name": "WEBDL",
       "implementation": "SourceSpecification",
       "negate": false,
