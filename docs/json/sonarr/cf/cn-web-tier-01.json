@@ -62,10 +62,10 @@
       }
     },
     {
-      "name": "FRDS",
+      "name": "FRDS-Title",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
-      "required": true,
+      "required": false,
       "fields": {
         "value": "\\b(FRDS)$"
       }
