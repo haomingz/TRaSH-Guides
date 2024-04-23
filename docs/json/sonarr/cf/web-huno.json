@@ -25,6 +25,15 @@
       }
     },
     {
+      "name": "SEV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SEV)$"
+      }
+    },
+    {
       "name": "QxR",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
