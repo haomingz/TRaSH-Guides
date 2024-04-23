@@ -62,6 +62,15 @@
       }
     },
     {
+      "name": "FRDS",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\b(FRDS)$"
+      }
+    },
+    {
       "name": "WEBDL",
       "implementation": "SourceSpecification",
       "negate": false,
@@ -77,6 +86,15 @@
       "required": false,
       "fields": {
         "value": 4
+      }
+    },
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
       }
     }
   ]
