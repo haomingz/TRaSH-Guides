@@ -1,7 +1,8 @@
 {
   "trash_id": "12b7753189454fbfaff5c170290e592a",
   "trash_scores": {
-    "default": 50
+    "default": 1700,
+    "anime-sonarr": 350
   },
   "name": "CN WEB FRDS",
   "includeCustomFormatWhenRenaming": false,
