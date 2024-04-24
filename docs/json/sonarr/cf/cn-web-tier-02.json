@@ -1,82 +1,73 @@
 {
-  "trash_id": "26d06e2ad0404525a9880567ad5b0e3a",
+  "trash_id": "15a7d4d65c9448fe81074e688b6ff220",
   "trash_scores": {
-    "default": 1700,
-    "anime-sonarr": 350
+    "default": 1650,
+    "anime-sonarr": 150
   },
-  "name": "CN WEB Tier 01",
+  "name": "CN WEB Tier 02",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "PTerWEB",
+      "name": "DBTV",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(PTerWEB)$"
+        "value": "^(DBTV)$"
       }
     },
     {
-      "name": "CHDWeb",
+      "name": "RLWeb",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(CHDWeb)$"
+        "value": "^(RLWeb)$"
       }
     },
     {
-      "name": "HHWEB",
+      "name": "YingWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HHWEB)$"
+        "value": "^(YingWEB)$"
       }
     },
     {
-      "name": "CMCTV",
+      "name": "FFansWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(CMCTV)$"
+        "value": "^(FFansWEB)$"
       }
     },
     {
-      "name": "ADWeb",
+      "name": "Kenobi",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(ADWeb)$"
+        "value": "^(Kenobi)$"
       }
     },
     {
-      "name": "FRDS",
+      "name": "OPS",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(FRDS)$"
+        "value": "^(OPS)$"
       }
     },
     {
-      "name": "QHstudIo",
+      "name": "JKCT",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(QHstudIo)$"
-      }
-    },
-    {
-      "name": "CNHK",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(CNHK)$"
+        "value": "^(JKCT)$"
       }
     },
     {

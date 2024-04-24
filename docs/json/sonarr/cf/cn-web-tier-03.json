@@ -1,82 +1,55 @@
 {
-  "trash_id": "26d06e2ad0404525a9880567ad5b0e3a",
+  "trash_id": "8947feb202fc4ca08e2f5ddc04057e5e",
   "trash_scores": {
-    "default": 1700,
-    "anime-sonarr": 350
+    "default": 1600,
+    "anime-sonarr": 150
   },
-  "name": "CN WEB Tier 01",
+  "name": "CN WEB Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "PTerWEB",
+      "name": "OurTV",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(PTerWEB)$"
+        "value": "^(OurTV)$"
       }
     },
     {
-      "name": "CHDWeb",
+      "name": "HDCTV",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(CHDWeb)$"
+        "value": "^(HDCTV)$"
+      }
+    },    
+    {
+      "name": "ZMWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ZMWeb)$"
       }
     },
     {
-      "name": "HHWEB",
+      "name": "HDSWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(HHWEB)$"
+        "value": "^(HDSWEB)$"
       }
     },
     {
-      "name": "CMCTV",
+      "name": "HDVWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(CMCTV)$"
-      }
-    },
-    {
-      "name": "ADWeb",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(ADWeb)$"
-      }
-    },
-    {
-      "name": "FRDS",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(FRDS)$"
-      }
-    },
-    {
-      "name": "QHstudIo",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(QHstudIo)$"
-      }
-    },
-    {
-      "name": "CNHK",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(CNHK)$"
+        "value": "^(HDVWEB)$"
       }
     },
     {
