@@ -1,0 +1,64 @@
+{
+  "trash_id": "02c65c4d91ef4a0d8124a52bbe5f01e5",
+  "trash_scores": {
+    "default": 1750
+  },
+  "name": "CN HD Bluray Tier 02",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "Not REMUX",
+      "implementation": "SourceSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "Not 2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    },
+    {
+      "name": "FFans",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FFans)$"
+      }
+    },
+    {
+      "name": "TLF",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(TLF)$"
+      }
+    },
+    {
+      "name": "BeiTai",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BeiTai)$"
+      }
+    }
+  ]
+}

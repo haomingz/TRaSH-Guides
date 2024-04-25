@@ -17,6 +17,33 @@
       }
     },
     {
+      "name": "DJWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DJWEB)$"
+      }
+    },
+    {
+      "name": "HaresWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HaresWEB)$"
+      }
+    },
+    {
+      "name": "RO",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(RO)$"
+      }
+    },
+    {
       "name": "RLWeb",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
