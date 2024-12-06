@@ -62,12 +62,21 @@
       }
     },
     {
-      "name": "FROGWeb",
+      "name": "DBTV",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(FROGWeb)$"
+        "value": "^(DBTV)$"
+      }
+    },
+    {
+      "name": "DJWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DJWEB)$"
       }
     },
     {
