@@ -1,0 +1,73 @@
+{
+  "trash_id": "3c1bd4e1b4a64b149931716b4bc9f7a7",
+  "trash_scores": {
+    "default": 1725
+  },
+  "name": "WEB HUNO Freeleech",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "HONE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HONE)$"
+      }
+    },
+    {
+      "name": "TAoE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(TAoE)$"
+      }
+    },
+    {
+      "name": "QxR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(QxR)$"
+      }
+    },
+    {
+      "name": "Vyndros",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Vyndros)$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
+      "name": "Freeleech",
+      "implementation": "IndexerFlagSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1
+      }
+    }
+  ]
+}

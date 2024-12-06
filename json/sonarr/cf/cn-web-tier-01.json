@@ -1,0 +1,119 @@
+{
+  "trash_id": "26d06e2ad0404525a9880567ad5b0e3a",
+  "trash_scores": {
+    "default": 1700,
+    "anime-sonarr": 350
+  },
+  "name": "CN WEB Tier 01",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "PTerWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PTerWEB)$"
+      }
+    },
+    {
+      "name": "CHDWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CHDWeb)$"
+      }
+    },
+    {
+      "name": "HHWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HHWEB)$"
+      }
+    },
+    {
+      "name": "CMCTV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CMCTV)$"
+      }
+    },
+    {
+      "name": "UBWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(UBWEB)$"
+      }
+    },
+    {
+      "name": "ADWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ADWeb)$"
+      }
+    },
+    {
+      "name": "FRDS",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FRDS)$"
+      }
+    },
+    {
+      "name": "QHstudIo",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(QHstudIo)$"
+      }
+    },
+    {
+      "name": "CNHK",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CNHK)$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    }
+  ]
+}

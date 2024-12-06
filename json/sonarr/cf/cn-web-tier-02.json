@@ -1,0 +1,128 @@
+{
+  "trash_id": "15a7d4d65c9448fe81074e688b6ff220",
+  "trash_scores": {
+    "default": 1650,
+    "anime-sonarr": 150
+  },
+  "name": "CN WEB Tier 02",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "HaresWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HaresWEB)$"
+      }
+    },
+    {
+      "name": "RO",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(RO)$"
+      }
+    },
+    {
+      "name": "RLWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(RLWeb)$"
+      }
+    },
+    {
+      "name": "YingWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(YingWEB)$"
+      }
+    },
+    {
+      "name": "MWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MWeb)$"
+      }
+    },
+    {
+      "name": "FROGWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FROGWeb)$"
+      }
+    },
+    {
+      "name": "FFansWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FFansWEB)$"
+      }
+    },
+    {
+      "name": "Kenobi",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kenobi)$"
+      }
+    },
+    {
+      "name": "OPS",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(OPS)$"
+      }
+    },
+    {
+      "name": "JKCT",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(JKCT)$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    }
+  ]
+}

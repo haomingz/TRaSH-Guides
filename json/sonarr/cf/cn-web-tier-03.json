@@ -1,0 +1,110 @@
+{
+  "trash_id": "8947feb202fc4ca08e2f5ddc04057e5e",
+  "trash_scores": {
+    "default": 1600,
+    "anime-sonarr": 150
+  },
+  "name": "CN WEB Tier 03",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "OurTV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(OurTV)$"
+      }
+    },
+    {
+      "name": "HDCTV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HDCTV)$"
+      }
+    },    
+    {
+      "name": "ZMWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ZMWeb)$"
+      }
+    },
+    {
+      "name": "HDSWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HDSWEB)$"
+      }
+    },
+    {
+      "name": "HDVWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HDVWEB)$"
+      }
+    },
+    {
+      "name": "AGSVWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(AGSVWEB)$"
+      }
+    },
+    {
+      "name": "DBTV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DBTV)$"
+      }
+    },
+    {
+      "name": "DJWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DJWEB)$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    }
+  ]
+}
