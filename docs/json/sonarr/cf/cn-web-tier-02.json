@@ -62,6 +62,15 @@
       }
     },
     {
+      "name": "MWeb",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MWeb)$"
+      }
+    },
+    {
       "name": "FFansWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,

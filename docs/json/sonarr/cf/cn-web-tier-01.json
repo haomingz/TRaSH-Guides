@@ -44,6 +44,15 @@
       }
     },
     {
+      "name": "UBWEB",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(UBWEB)$"
+      }
+    },
+    {
       "name": "ADWeb",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
