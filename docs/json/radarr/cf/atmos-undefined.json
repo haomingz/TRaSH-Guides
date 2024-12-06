@@ -3,6 +3,7 @@
   "trash_scores": {
     "default": 3000,
     "sqp-1-1080p": 0,
+    "sqp-1-web-1080p": 0,
     "sqp-1-2160p": 0
   },
   "name": "ATMOS (undefined)",
@@ -32,7 +33,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDD[^a-z+]|(?<!e)ac3"
+        "value": "\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b"
       }
     },
     {
@@ -41,7 +42,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b"
+        "value": "\\bDD[P+]|\\b(e[-_. ]?ac-?3)\\b"
       }
     },
     {

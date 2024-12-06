@@ -1,4 +1,5 @@
 ??? abstract "General Streaming Services - [Click to show/hide]"
+
     | Custom Format                                                                               |                          Score                          | Trash ID                                 |
     |---------------------------------------------------------------------------------------------|:-------------------------------------------------------:|------------------------------------------|
     | [{{ sonarr['cf']['amzn']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#amzn)     |  {{ sonarr['cf']['amzn']['trash_scores']['default'] }}  | {{ sonarr['cf']['amzn']['trash_id'] }}   |
@@ -16,3 +17,4 @@
     | [{{ sonarr['cf']['pcok']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#pcok)     |  {{ sonarr['cf']['pcok']['trash_scores']['default'] }}  | {{ sonarr['cf']['pcok']['trash_id'] }}   |
     | [{{ sonarr['cf']['sho']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#sho)       |  {{ sonarr['cf']['sho']['trash_scores']['default'] }}   | {{ sonarr['cf']['sho']['trash_id'] }}    |
     | [{{ sonarr['cf']['stan']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#stan)     |  {{ sonarr['cf']['stan']['trash_scores']['default'] }}  | {{ sonarr['cf']['stan']['trash_id'] }}   |
+    | [{{ sonarr['cf']['syfy']['name'] }}](/Sonarr/sonarr-collection-of-custom-formats/#syfy)     |  {{ sonarr['cf']['syfy']['trash_scores']['default'] }}  | {{ sonarr['cf']['syfy']['trash_id'] }}   |

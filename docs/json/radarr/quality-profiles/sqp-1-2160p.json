@@ -17,7 +17,11 @@
     { "name": "SDTV", "allowed": false },
     { "name": "DVD", "allowed": false },
     { "name": "DVD-R", "allowed": false },
-    { "name": "WEB 480p", "allowed": false, "items": ["WEBDL-480p", "WEBRip-480p"] },
+    {
+      "name": "WEB 480p",
+      "allowed": false,
+      "items": ["WEBDL-480p", "WEBRip-480p"]
+    },
     { "name": "Bluray-480p", "allowed": false },
     { "name": "Bluray-576p", "allowed": false },
     { "name": "HDTV-720p", "allowed": false },
@@ -31,9 +35,19 @@
     {
       "name": "Bluray|WEB-1080p",
       "allowed": true,
-      "items": ["WEBRip-720p", "WEBDL-720p", "WEBRip-1080p", "WEBDL-1080p", "Bluray-1080p"]
+      "items": [
+        "WEBRip-720p",
+        "WEBDL-720p",
+        "WEBRip-1080p",
+        "WEBDL-1080p",
+        "Bluray-1080p"
+      ]
     },
-    { "name": "WEB 2160p", "allowed": true, "items": ["WEBDL-2160p", "WEBRip-2160p"] },
+    {
+      "name": "WEB 2160p",
+      "allowed": true,
+      "items": ["WEBDL-2160p", "WEBRip-2160p"]
+    },
     { "name": "Bluray-2160p", "allowed": true }
   ],
   "formatItems": {
@@ -63,13 +77,8 @@
     "PQ": "08d6d8834ad9ec87b1dc7ec8148e7a1f",
     "HLG": "9364dd386c9b4a1100dde8264690add7",
     "DV (WEBDL)": "923b6abef9b17f937fab56cfcf89e1f1",
-    "Remaster": "570bc9ebecd92723d2d21500f4be314c",
-    "4K Remaster": "eca37840c13c6ef2dd0262b141a5482f",
-    "Criterion Collection": "e0c07d59beb37348e975a930d5e50319",
-    "Masters of Cinema": "9d27d9d2181838f76dee150882bdc58c",
-    "Vinegar Syndrome": "db9b4c4b53d312a3ca5f1378f6440fc9",
-    "Special Edition": "957d0f44b592285f26449575e8b1167e",
     "BHDStudio": "5153ec7413d9dae44e24275589b5e944",
+    "hallowed": "7a0d1ad358fee9f5b074af3ef3f9d9ef",
     "WEB Tier 01": "c20f169ef63c5f40c2def54abaf4438e",
     "WEB Tier 02": "403816d65392c79236dcb6dd591aeda4",
     "WEB Tier 03": "af94e0fe497124d1f9ce732069ec8c3b",
@@ -81,6 +90,7 @@
     "UHD Bluray Tier 03": "e71939fae578037e7aed3ee219bbe7c1",
     "Repack/Proper": "e7718d7a3ce595f289bfee26adc178f5",
     "Repack2": "ae43b294509409a6a13919dedd4764c4",
+    "Repack3": "5caaaa1c08c1742aa4342d8c4cc463f2",
     "BR-DISK": "ed38b889b31be83fda192888e2286d83",
     "LQ": "90a6f9a284dff5103f6346090e6280c8",
     "LQ (Release Title)": "e204b80c87be9497a8a6eaff48f72905",
@@ -89,6 +99,7 @@
     "Upscaled": "bfd8eb01832d646a0a89c4deb46f8564",
     "Extras": "0a3f082873eb454bde444150b70253cc",
     "10 bit": "a5d148168c4506b55cf53984107c396e",
+    "AV1": "cae4ca30163749b891686f95532519bd",
     "1080p": "820b09bb9acbfde9c35c71e0e565dad8",
     "720p": "b2be17d608fc88818940cd1833b0b24c",
     "AMZN": "b3b3a6ac74ecbd56bcdbefa4799fb9df",
@@ -99,6 +110,7 @@
     "HBO": "509e5f41146e278f9eab1ddaceb34515",
     "HMAX": "5763d1b0ce84aff3b21038eea8e9b8ad",
     "Hulu": "526d445d4c16214309f0fd2b3be18a89",
+    "iT": "e0ec9672be6cac914ffad34a6b077209",
     "MA": "2a6039655313bf5dab1e43523b62c374",
     "MAX": "6a061313d22e51e0f25b7cd4dc065233",
     "NF": "170b1d363bd8516fbf3a3eb05d4faff6",
